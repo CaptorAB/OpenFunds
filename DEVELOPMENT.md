@@ -10,5 +10,6 @@ The file fieldlist.htm is very big and contains a lot of redundant information.
 
 Lets fix that
 ```bash
-pandoc -s fieldlist.htm -t gfm-raw_html -o fieldlist.initial.md
+python3 script/cleanup_html.py
 ```
+
